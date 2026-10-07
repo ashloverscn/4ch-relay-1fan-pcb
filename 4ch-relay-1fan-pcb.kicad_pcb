@@ -14253,19 +14253,6 @@
 	)
 	(gr_poly
 		(pts
-			(xy 187 68.64) (xy 188.44 67.21) (xy 190.53 69.3) (xy 190.65 69.46) (xy 190.71 69.59) (xy 190.76 69.75)
-			(xy 190.78 69.93) (xy 190.75 76.03) (xy 188.76 76.02) (xy 188.75 70.4)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Mask")
-		(uuid "67a588f7-9483-40a7-a648-dcd6a5e6fc4b")
-	)
-	(gr_poly
-		(pts
 			(xy 94.14 68.8) (xy 96.17 68.8) (xy 96.17 77.26) (xy 96.1 77.53) (xy 95.95 77.75) (xy 95.62 78.08)
 			(xy 95.4 78.26) (xy 95.03 77.27) (xy 94.58 76.98) (xy 93.97 76.94) (xy 93.975714 76.854286) (xy 94.15 76.710153)
 		)
@@ -14401,6 +14388,21 @@
 		(fill yes)
 		(layer "B.Mask")
 		(uuid "1fb81428-feee-46f1-81c0-5219e7459761")
+	)
+	(gr_poly
+		(pts
+			(xy 188.73 76.98) (xy 190.79 77) (xy 190.79 72.41) (xy 190.77 72.29) (xy 190.75 72.21) (xy 190.73 72.14)
+			(xy 190.69 72.05) (xy 190.62 71.94) (xy 190.52 71.81) (xy 190.46 71.76) (xy 189.95 71.25) (xy 189.37 70.68)
+			(xy 188.07 69.38) (xy 188.07 68.23) (xy 186.05 68.24) (xy 186.05 69.88) (xy 186.06 69.98) (xy 186.09 70.1)
+			(xy 186.13 70.2) (xy 186.19 70.32) (xy 186.23 70.38) (xy 186.287693 70.433551) (xy 188.75 72.92)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "426456dc-9c73-466b-9077-c1cc1a6317b0")
 	)
 	(gr_poly
 		(pts
@@ -16638,6 +16640,22 @@
 		(uuid "26edf465-1cd0-4911-be8d-24c5a1427ff8")
 	)
 	(segment
+		(start 187.06 67.26)
+		(end 187.06 69.8)
+		(width 2)
+		(layer "B.Cu")
+		(net "Net-(J8-Pin_2)")
+		(uuid "3d8fb0ac-fed3-45a8-b52c-3a94d02b01b2")
+	)
+	(segment
+		(start 187.06 69.8)
+		(end 189.77 72.51)
+		(width 2)
+		(layer "B.Cu")
+		(net "Net-(J8-Pin_2)")
+		(uuid "6efc9d9c-9770-4eb8-8e36-317a67695791")
+	)
+	(segment
 		(start 185.745 90.965)
 		(end 187.31 90.965)
 		(width 1)
@@ -16654,12 +16672,12 @@
 		(uuid "8afa2ee3-120b-43bf-ac81-6b9b89206af8")
 	)
 	(segment
-		(start 189.77 69.97)
+		(start 189.77 72.51)
 		(end 189.77 76.01)
 		(width 2)
 		(layer "B.Cu")
 		(net "Net-(J8-Pin_2)")
-		(uuid "9c4581a8-39ac-4934-8102-47f166d0bc70")
+		(uuid "9ecedefb-7278-49c2-9efe-cca4e082a6ae")
 	)
 	(segment
 		(start 184.5 89.72)
@@ -16668,14 +16686,6 @@
 		(layer "B.Cu")
 		(net "Net-(J8-Pin_2)")
 		(uuid "a7cb2931-aab3-4345-9f44-361b13e02656")
-	)
-	(segment
-		(start 187.06 67.26)
-		(end 189.77 69.97)
-		(width 2)
-		(layer "B.Cu")
-		(net "Net-(J8-Pin_2)")
-		(uuid "abaa3dfe-82a1-4d0e-8ef2-c43a1b06b52e")
 	)
 	(segment
 		(start 186.81 82.445)
